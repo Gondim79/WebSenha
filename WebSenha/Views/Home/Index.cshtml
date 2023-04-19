@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Painel";
+}
+
+<div class="row cabecalho">
+   <h1 class="painel-senha">Painel de Senhas</h1>
+</div>
+
+<div class="row conteudo">
+    <div class="col-md-8 conteudo-Painel">
+        <h1 class="senha-alinhada">
+            <span>Senha : </span> <span id="senha"></span>
+            <span>Guiche : </span> <span id="guiche"></span>
+        </h1>
+    </div>
+
+    <div class="col-md-4 conteudo-Painel">
+        <h3 class="ultima-chamada-alinhada">Últimas Chamadas</h3>
+        <div id="senhasChamadas"></div>
+    </div>
+</div>
+
+<div class="row rodape">
+</div>
+
+<link href="~/css/painel.css" rel="stylesheet" />
